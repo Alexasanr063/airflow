@@ -1,0 +1,35 @@
+[2025-01-14T10:41:04.445+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prepare_churn_dataset.extract manual__2025-01-14T10:41:01.588616+00:00 [queued]>
+[2025-01-14T10:41:04.453+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prepare_churn_dataset.extract manual__2025-01-14T10:41:01.588616+00:00 [queued]>
+[2025-01-14T10:41:04.453+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-14T10:41:04.470+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2025-01-14 10:41:01.588616+00:00
+[2025-01-14T10:41:04.479+0000] {standard_task_runner.py:57} INFO - Started process 642 to run task
+[2025-01-14T10:41:04.482+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'prepare_churn_dataset', 'extract', 'manual__2025-01-14T10:41:01.588616+00:00', '--job-id', '186', '--raw', '--subdir', 'DAGS_FOLDER/churn.py', '--cfg-path', '/tmp/tmp33ejzv8l']
+[2025-01-14T10:41:04.484+0000] {standard_task_runner.py:85} INFO - Job 186: Subtask extract
+[2025-01-14T10:41:04.548+0000] {task_command.py:416} INFO - Running <TaskInstance: prepare_churn_dataset.extract manual__2025-01-14T10:41:01.588616+00:00 [running]> on host 912df0823751
+[2025-01-14T10:41:04.656+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='prepare_churn_dataset' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-01-14T10:41:01.588616+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-14T10:41:01.588616+00:00'
+[2025-01-14T10:41:04.665+0000] {churn.py:71} INFO - Извлечение данных из источника.
+[2025-01-14T10:41:04.676+0000] {base.py:73} INFO - Using connection ID 'source_db' for task execution.
+[2025-01-14T10:41:04.835+0000] {warnings.py:109} WARNING - /opt/***/dags/churn.py:86: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  data = pd.read_sql(sql, conn)
+
+[2025-01-14T10:41:05.212+0000] {churn.py:88} INFO - Данные успешно извлечены.
+[2025-01-14T10:41:05.213+0000] {python.py:194} INFO - Done. Returned value was:      customer_id  begin_date  ... dependents multiple_lines
+0     7590-VHVEG  2020-01-01  ...         No           None
+1     5575-GNVDE  2017-04-01  ...         No             No
+2     3668-QPYBK  2019-10-01  ...         No             No
+3     7795-CFOCW  2016-05-01  ...         No           None
+4     9237-HQITU  2019-09-01  ...         No             No
+...          ...         ...  ...        ...            ...
+7038  6840-RESVB  2018-02-01  ...        Yes            Yes
+7039  2234-XADUH  2014-02-01  ...        Yes            Yes
+7040  4801-JZAZL  2019-03-01  ...        Yes           None
+7041  8361-LTMKD  2019-07-01  ...         No            Yes
+7042  3186-AJIEK  2014-08-01  ...         No             No
+
+[7043 rows x 20 columns]
+[2025-01-14T10:41:05.269+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/pyarrow/pandas_compat.py:373: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if _pandas_api.is_sparse(col):
+
+[2025-01-14T10:41:04.860+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=prepare_churn_dataset, task_id=extract, execution_date=20250114T104101, start_date=20250114T104104, end_date=20250114T104104
+[2025-01-14T10:41:04.212+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-14T10:41:04.237+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

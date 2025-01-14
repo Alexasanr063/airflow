@@ -1,0 +1,49 @@
+[2025-01-13T21:30:05.997+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prepare_churn_dataset.transform manual__2025-01-13T21:30:01.790203+00:00 [queued]>
+[2025-01-13T21:30:06.004+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prepare_churn_dataset.transform manual__2025-01-13T21:30:01.790203+00:00 [queued]>
+[2025-01-13T21:30:06.004+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-13T21:30:06.016+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2025-01-13 21:30:01.790203+00:00
+[2025-01-13T21:30:06.024+0000] {standard_task_runner.py:57} INFO - Started process 277 to run task
+[2025-01-13T21:30:06.026+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'prepare_churn_dataset', 'transform', 'manual__2025-01-13T21:30:01.790203+00:00', '--job-id', '161', '--raw', '--subdir', 'DAGS_FOLDER/churn.py', '--cfg-path', '/tmp/tmpj5vmo97x']
+[2025-01-13T21:30:06.027+0000] {standard_task_runner.py:85} INFO - Job 161: Subtask transform
+[2025-01-13T21:30:06.071+0000] {task_command.py:416} INFO - Running <TaskInstance: prepare_churn_dataset.transform manual__2025-01-13T21:30:01.790203+00:00 [running]> on host 961dfe1dfaad
+[2025-01-13T21:30:06.223+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='prepare_churn_dataset' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2025-01-13T21:30:01.790203+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-13T21:30:01.790203+00:00'
+[2025-01-13T21:30:06.228+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 220, in _na_arithmetic_op
+    result = func(left, right)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/computation/expressions.py", line 242, in evaluate
+    return _evaluate(op, op_str, a, b)  # type: ignore[misc]
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/computation/expressions.py", line 73, in _evaluate_standard
+    return op(a, b)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/churn.py", line 95, in transform
+    data['subscription_duration'] = ((data['end_date'] - data['begin_date']).dt.days // 30).fillna(0).astype(int)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/arraylike.py", line 194, in __sub__
+    return self._arith_method(other, operator.sub)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/series.py", line 5815, in _arith_method
+    return base.IndexOpsMixin._arith_method(self, other, op)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/base.py", line 1381, in _arith_method
+    result = ops.arithmetic_op(lvalues, rvalues, op)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 285, in arithmetic_op
+    res_values = _na_arithmetic_op(left, right, op)  # type: ignore[arg-type]
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 229, in _na_arithmetic_op
+    result = _masked_arith_op(left, right, op)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 165, in _masked_arith_op
+    result[mask] = op(xrav[mask], yrav[mask])
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+[2025-01-13T21:30:06.240+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=prepare_churn_dataset, task_id=transform, execution_date=20250113T213001, start_date=20250113T213005, end_date=20250113T213006
+[2025-01-13T21:30:06.251+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 161 for task transform (unsupported operand type(s) for -: 'str' and 'str'; 277)
+[2025-01-13T21:30:06.280+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-01-13T21:30:06.301+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

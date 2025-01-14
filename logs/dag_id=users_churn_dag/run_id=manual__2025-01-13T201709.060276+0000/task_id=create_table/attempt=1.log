@@ -1,0 +1,16 @@
+[2025-01-13T20:17:11.358+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: users_churn_dag.create_table manual__2025-01-13T20:17:09.060276+00:00 [queued]>
+[2025-01-13T20:17:11.368+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: users_churn_dag.create_table manual__2025-01-13T20:17:09.060276+00:00 [queued]>
+[2025-01-13T20:17:11.369+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-01-13T20:17:11.383+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): create_table> on 2025-01-13 20:17:09.060276+00:00
+[2025-01-13T20:17:11.395+0000] {standard_task_runner.py:57} INFO - Started process 82 to run task
+[2025-01-13T20:17:11.405+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'users_churn_dag', 'create_table', 'manual__2025-01-13T20:17:09.060276+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/churn.py', '--cfg-path', '/tmp/tmpgwac387i']
+[2025-01-13T20:17:11.408+0000] {standard_task_runner.py:85} INFO - Job 124: Subtask create_table
+[2025-01-13T20:17:11.560+0000] {task_command.py:416} INFO - Running <TaskInstance: users_churn_dag.create_table manual__2025-01-13T20:17:09.060276+00:00 [running]> on host 14693034c220
+[2025-01-13T20:17:11.661+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='users_churn_dag' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2025-01-13T20:17:09.060276+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-13T20:17:09.060276+00:00'
+[2025-01-13T20:17:11.668+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-13T20:17:11.669+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-13T20:17:12.193+0000] {logging_mixin.py:154} INFO - Таблица users_churn уже существует.
+[2025-01-13T20:17:12.221+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-01-13T20:17:12.232+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=users_churn_dag, task_id=create_table, execution_date=20250113T201709, start_date=20250113T201711, end_date=20250113T201712
+[2025-01-13T20:17:12.260+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-13T20:17:12.284+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

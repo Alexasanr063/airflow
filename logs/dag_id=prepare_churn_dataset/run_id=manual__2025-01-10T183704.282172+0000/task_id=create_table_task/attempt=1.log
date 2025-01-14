@@ -1,0 +1,14 @@
+[2025-01-10T18:37:07.677+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prepare_churn_dataset.create_table_task manual__2025-01-10T18:37:04.282172+00:00 [queued]>
+[2025-01-10T18:37:07.684+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prepare_churn_dataset.create_table_task manual__2025-01-10T18:37:04.282172+00:00 [queued]>
+[2025-01-10T18:37:07.685+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-10T18:37:07.696+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): create_table_task> on 2025-01-10 18:37:04.282172+00:00
+[2025-01-10T18:37:07.703+0000] {standard_task_runner.py:57} INFO - Started process 72 to run task
+[2025-01-10T18:37:07.706+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'prepare_churn_dataset', 'create_table_task', 'manual__2025-01-10T18:37:04.282172+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/churn.py', '--cfg-path', '/tmp/tmphs9q2dnu']
+[2025-01-10T18:37:07.707+0000] {standard_task_runner.py:85} INFO - Job 84: Subtask create_table_task
+[2025-01-10T18:37:07.764+0000] {task_command.py:416} INFO - Running <TaskInstance: prepare_churn_dataset.create_table_task manual__2025-01-10T18:37:04.282172+00:00 [running]> on host 14239e7efa29
+[2025-01-10T18:37:08.078+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='prepare_churn_dataset' AIRFLOW_CTX_TASK_ID='create_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-10T18:37:04.282172+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-10T18:37:04.282172+00:00'
+[2025-01-10T18:37:08.139+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-10T18:37:08.899+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-01-10T18:37:08.928+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=prepare_churn_dataset, task_id=create_table_task, execution_date=20250110T183704, start_date=20250110T183707, end_date=20250110T183708
+[2025-01-10T18:37:09.044+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-10T18:37:09.062+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
