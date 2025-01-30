@@ -1,0 +1,1100 @@
+[2025-01-22 08:35:00,381] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:35:00,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:35:00,382] {logging_mixin.py:115} INFO - [2025-01-22 08:35:00,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:35:00,776] {logging_mixin.py:115} INFO - [2025-01-22 08:35:00,771] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:35:00,776] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:35:00,791] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.412 seconds
+[2025-01-22 08:35:30,861] {processor.py:153} INFO - Started process (PID=80) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:35:30,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:35:30,862] {logging_mixin.py:115} INFO - [2025-01-22 08:35:30,862] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:35:31,091] {logging_mixin.py:115} INFO - [2025-01-22 08:35:31,087] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:35:31,091] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:35:31,112] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.253 seconds
+[2025-01-22 08:36:01,945] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:36:01,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:36:01,946] {logging_mixin.py:115} INFO - [2025-01-22 08:36:01,946] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:36:02,150] {logging_mixin.py:115} INFO - [2025-01-22 08:36:02,146] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:36:02,150] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:36:02,165] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.222 seconds
+[2025-01-22 08:36:32,221] {processor.py:153} INFO - Started process (PID=100) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:36:32,222] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:36:32,222] {logging_mixin.py:115} INFO - [2025-01-22 08:36:32,222] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:36:32,445] {logging_mixin.py:115} INFO - [2025-01-22 08:36:32,441] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:36:32,445] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:36:32,461] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.242 seconds
+[2025-01-22 08:37:03,377] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:37:03,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:37:03,379] {logging_mixin.py:115} INFO - [2025-01-22 08:37:03,378] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:37:03,591] {logging_mixin.py:115} INFO - [2025-01-22 08:37:03,587] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:37:03,591] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:37:03,604] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.230 seconds
+[2025-01-22 08:37:34,565] {processor.py:153} INFO - Started process (PID=120) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:37:34,566] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:37:34,567] {logging_mixin.py:115} INFO - [2025-01-22 08:37:34,567] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:37:34,784] {logging_mixin.py:115} INFO - [2025-01-22 08:37:34,780] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:37:34,785] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:37:34,806] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.244 seconds
+[2025-01-22 08:38:05,729] {processor.py:153} INFO - Started process (PID=130) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:38:05,729] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:38:05,730] {logging_mixin.py:115} INFO - [2025-01-22 08:38:05,730] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:38:05,954] {logging_mixin.py:115} INFO - [2025-01-22 08:38:05,950] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:38:05,955] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:38:05,978] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.252 seconds
+[2025-01-22 08:38:36,794] {processor.py:153} INFO - Started process (PID=140) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:38:36,795] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:38:36,795] {logging_mixin.py:115} INFO - [2025-01-22 08:38:36,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:38:36,995] {logging_mixin.py:115} INFO - [2025-01-22 08:38:36,991] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:38:36,996] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:38:37,016] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.224 seconds
+[2025-01-22 08:39:07,057] {processor.py:153} INFO - Started process (PID=149) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:39:07,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:39:07,058] {logging_mixin.py:115} INFO - [2025-01-22 08:39:07,058] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:39:07,266] {logging_mixin.py:115} INFO - [2025-01-22 08:39:07,262] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:39:07,267] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:39:07,288] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.234 seconds
+[2025-01-22 08:39:38,185] {processor.py:153} INFO - Started process (PID=159) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:39:38,186] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:39:38,187] {logging_mixin.py:115} INFO - [2025-01-22 08:39:38,186] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:39:38,413] {logging_mixin.py:115} INFO - [2025-01-22 08:39:38,408] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:39:38,413] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:39:38,435] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.252 seconds
+[2025-01-22 08:40:09,328] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:40:09,329] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:40:09,330] {logging_mixin.py:115} INFO - [2025-01-22 08:40:09,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:40:09,545] {logging_mixin.py:115} INFO - [2025-01-22 08:40:09,541] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:40:09,545] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:40:09,559] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.233 seconds
+[2025-01-22 08:40:40,110] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:40:40,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:40:40,111] {logging_mixin.py:115} INFO - [2025-01-22 08:40:40,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:40:40,340] {logging_mixin.py:115} INFO - [2025-01-22 08:40:40,335] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:40:40,340] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:40:40,356] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.249 seconds
+[2025-01-22 08:41:10,914] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:41:10,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:41:10,915] {logging_mixin.py:115} INFO - [2025-01-22 08:41:10,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:41:11,132] {logging_mixin.py:115} INFO - [2025-01-22 08:41:11,128] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:41:11,133] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:41:11,154] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.242 seconds
+[2025-01-22 08:41:41,659] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:41:41,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:41:41,660] {logging_mixin.py:115} INFO - [2025-01-22 08:41:41,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:41:41,872] {logging_mixin.py:115} INFO - [2025-01-22 08:41:41,868] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:41:41,873] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:41:41,890] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.234 seconds
+[2025-01-22 08:42:12,290] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:42:12,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:42:12,291] {logging_mixin.py:115} INFO - [2025-01-22 08:42:12,291] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:42:12,501] {logging_mixin.py:115} INFO - [2025-01-22 08:42:12,497] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:42:12,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:42:12,514] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.226 seconds
+[2025-01-22 08:42:42,969] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:42:42,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:42:42,971] {logging_mixin.py:115} INFO - [2025-01-22 08:42:42,971] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:42:43,191] {logging_mixin.py:115} INFO - [2025-01-22 08:42:43,186] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:42:43,191] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:42:43,207] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.240 seconds
+[2025-01-22 08:43:13,797] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:43:13,797] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:43:13,798] {logging_mixin.py:115} INFO - [2025-01-22 08:43:13,798] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:43:14,013] {logging_mixin.py:115} INFO - [2025-01-22 08:43:14,008] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:43:14,013] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:43:14,029] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.234 seconds
+[2025-01-22 08:43:44,973] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:43:44,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:43:44,974] {logging_mixin.py:115} INFO - [2025-01-22 08:43:44,974] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:43:45,194] {logging_mixin.py:115} INFO - [2025-01-22 08:43:45,189] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:43:45,194] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:43:45,216] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.246 seconds
+[2025-01-22 08:44:16,076] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:44:16,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:44:16,077] {logging_mixin.py:115} INFO - [2025-01-22 08:44:16,077] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:44:16,275] {logging_mixin.py:115} INFO - [2025-01-22 08:44:16,271] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:44:16,275] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:44:16,295] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.221 seconds
+[2025-01-22 08:45:59,686] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:45:59,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:45:59,687] {logging_mixin.py:115} INFO - [2025-01-22 08:45:59,687] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:45:59,959] {logging_mixin.py:115} INFO - [2025-01-22 08:45:59,955] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:45:59,959] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:45:59,978] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.295 seconds
+[2025-01-22 08:46:30,346] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:46:30,346] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:46:30,347] {logging_mixin.py:115} INFO - [2025-01-22 08:46:30,347] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:46:30,572] {logging_mixin.py:115} INFO - [2025-01-22 08:46:30,568] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:46:30,572] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:46:30,587] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.244 seconds
+[2025-01-22 08:47:01,027] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:47:01,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:47:01,028] {logging_mixin.py:115} INFO - [2025-01-22 08:47:01,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:47:01,238] {logging_mixin.py:115} INFO - [2025-01-22 08:47:01,233] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:47:01,238] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:47:01,253] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.228 seconds
+[2025-01-22 08:47:31,635] {processor.py:153} INFO - Started process (PID=99) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:47:31,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:47:31,636] {logging_mixin.py:115} INFO - [2025-01-22 08:47:31,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:47:31,847] {logging_mixin.py:115} INFO - [2025-01-22 08:47:31,843] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:47:31,847] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:47:31,861] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.229 seconds
+[2025-01-22 08:48:02,344] {processor.py:153} INFO - Started process (PID=109) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:48:02,344] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:48:02,345] {logging_mixin.py:115} INFO - [2025-01-22 08:48:02,345] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:48:02,553] {logging_mixin.py:115} INFO - [2025-01-22 08:48:02,548] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:48:02,553] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:48:02,569] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.227 seconds
+[2025-01-22 08:48:33,022] {processor.py:153} INFO - Started process (PID=119) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:48:33,022] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:48:33,023] {logging_mixin.py:115} INFO - [2025-01-22 08:48:33,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:48:33,229] {logging_mixin.py:115} INFO - [2025-01-22 08:48:33,225] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:48:33,229] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:48:33,243] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.223 seconds
+[2025-01-22 08:49:03,677] {processor.py:153} INFO - Started process (PID=129) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:49:03,678] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:49:03,678] {logging_mixin.py:115} INFO - [2025-01-22 08:49:03,678] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:49:03,889] {logging_mixin.py:115} INFO - [2025-01-22 08:49:03,884] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:49:03,890] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:49:03,906] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.232 seconds
+[2025-01-22 08:49:34,332] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:49:34,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:49:34,333] {logging_mixin.py:115} INFO - [2025-01-22 08:49:34,333] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:49:34,558] {logging_mixin.py:115} INFO - [2025-01-22 08:49:34,550] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:49:34,559] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:49:34,588] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.258 seconds
+[2025-01-22 08:50:04,909] {processor.py:153} INFO - Started process (PID=150) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:50:04,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:50:04,910] {logging_mixin.py:115} INFO - [2025-01-22 08:50:04,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:50:05,177] {logging_mixin.py:115} INFO - [2025-01-22 08:50:05,172] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:50:05,177] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:50:05,193] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.287 seconds
+[2025-01-22 08:50:35,457] {processor.py:153} INFO - Started process (PID=160) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:50:35,457] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:50:35,458] {logging_mixin.py:115} INFO - [2025-01-22 08:50:35,458] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:50:35,679] {logging_mixin.py:115} INFO - [2025-01-22 08:50:35,674] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:50:35,679] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:50:35,694] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.240 seconds
+[2025-01-22 08:51:06,617] {processor.py:153} INFO - Started process (PID=170) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:51:06,617] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:51:06,618] {logging_mixin.py:115} INFO - [2025-01-22 08:51:06,618] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:51:06,820] {logging_mixin.py:115} INFO - [2025-01-22 08:51:06,816] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:51:06,820] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:51:06,840] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.225 seconds
+[2025-01-22 08:51:37,258] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:51:37,259] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:51:37,260] {logging_mixin.py:115} INFO - [2025-01-22 08:51:37,259] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:51:37,476] {logging_mixin.py:115} INFO - [2025-01-22 08:51:37,472] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:51:37,476] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:51:37,496] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.241 seconds
+[2025-01-22 08:52:07,947] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:52:07,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:52:07,949] {logging_mixin.py:115} INFO - [2025-01-22 08:52:07,949] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:52:08,164] {logging_mixin.py:115} INFO - [2025-01-22 08:52:08,160] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:52:08,165] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:52:08,179] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.234 seconds
+[2025-01-22 08:52:38,589] {processor.py:153} INFO - Started process (PID=200) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:52:38,590] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:52:38,591] {logging_mixin.py:115} INFO - [2025-01-22 08:52:38,591] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:52:38,807] {logging_mixin.py:115} INFO - [2025-01-22 08:52:38,803] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:52:38,808] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:52:38,823] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.236 seconds
+[2025-01-22 08:53:09,191] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:53:09,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:53:09,192] {logging_mixin.py:115} INFO - [2025-01-22 08:53:09,192] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:53:09,411] {logging_mixin.py:115} INFO - [2025-01-22 08:53:09,407] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:53:09,411] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:53:09,425] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.237 seconds
+[2025-01-22 08:53:39,781] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:53:39,782] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:53:39,783] {logging_mixin.py:115} INFO - [2025-01-22 08:53:39,783] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:53:40,007] {logging_mixin.py:115} INFO - [2025-01-22 08:53:40,003] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:53:40,008] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:53:40,024] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.245 seconds
+[2025-01-22 08:54:10,474] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:54:10,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:54:10,475] {logging_mixin.py:115} INFO - [2025-01-22 08:54:10,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:54:10,681] {logging_mixin.py:115} INFO - [2025-01-22 08:54:10,676] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:54:10,681] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:54:10,696] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.224 seconds
+[2025-01-22 08:54:41,134] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:54:41,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:54:41,135] {logging_mixin.py:115} INFO - [2025-01-22 08:54:41,135] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:54:41,339] {logging_mixin.py:115} INFO - [2025-01-22 08:54:41,335] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:54:41,340] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:54:41,353] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.221 seconds
+[2025-01-22 08:55:11,753] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:55:11,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:55:11,755] {logging_mixin.py:115} INFO - [2025-01-22 08:55:11,754] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:55:11,959] {logging_mixin.py:115} INFO - [2025-01-22 08:55:11,956] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:55:11,960] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:55:11,973] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.222 seconds
+[2025-01-22 08:55:42,370] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:55:42,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:55:42,371] {logging_mixin.py:115} INFO - [2025-01-22 08:55:42,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:55:42,575] {logging_mixin.py:115} INFO - [2025-01-22 08:55:42,571] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:55:42,576] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:55:42,589] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.221 seconds
+[2025-01-22 08:56:13,031] {processor.py:153} INFO - Started process (PID=277) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:56:13,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:56:13,032] {logging_mixin.py:115} INFO - [2025-01-22 08:56:13,032] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:56:13,245] {logging_mixin.py:115} INFO - [2025-01-22 08:56:13,241] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:56:13,246] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:56:13,260] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.232 seconds
+[2025-01-22 08:56:43,582] {processor.py:153} INFO - Started process (PID=287) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:56:43,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:56:43,583] {logging_mixin.py:115} INFO - [2025-01-22 08:56:43,583] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:56:43,786] {logging_mixin.py:115} INFO - [2025-01-22 08:56:43,782] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:56:43,787] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:56:43,800] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.220 seconds
+[2025-01-22 08:57:14,195] {processor.py:153} INFO - Started process (PID=297) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:57:14,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:57:14,196] {logging_mixin.py:115} INFO - [2025-01-22 08:57:14,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:57:14,446] {logging_mixin.py:115} INFO - [2025-01-22 08:57:14,441] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:57:14,446] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:57:14,462] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.270 seconds
+[2025-01-22 08:57:44,811] {processor.py:153} INFO - Started process (PID=307) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:57:44,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:57:44,812] {logging_mixin.py:115} INFO - [2025-01-22 08:57:44,812] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:57:45,027] {logging_mixin.py:115} INFO - [2025-01-22 08:57:45,022] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:57:45,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:57:45,049] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.240 seconds
+[2025-01-22 08:58:15,168] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:58:15,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:58:15,169] {logging_mixin.py:115} INFO - [2025-01-22 08:58:15,169] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:58:15,387] {logging_mixin.py:115} INFO - [2025-01-22 08:58:15,383] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:58:15,387] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:58:15,401] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.236 seconds
+[2025-01-22 08:58:46,267] {processor.py:153} INFO - Started process (PID=327) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:58:46,267] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:58:46,268] {logging_mixin.py:115} INFO - [2025-01-22 08:58:46,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:58:46,475] {logging_mixin.py:115} INFO - [2025-01-22 08:58:46,471] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:58:46,475] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:58:46,489] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.225 seconds
+[2025-01-22 08:59:16,829] {processor.py:153} INFO - Started process (PID=337) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:59:16,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:59:16,830] {logging_mixin.py:115} INFO - [2025-01-22 08:59:16,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:59:17,040] {logging_mixin.py:115} INFO - [2025-01-22 08:59:17,036] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:59:17,041] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:59:17,055] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.228 seconds
+[2025-01-22 08:59:47,353] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/churn.py
+[2025-01-22 08:59:47,354] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 08:59:47,354] {logging_mixin.py:115} INFO - [2025-01-22 08:59:47,354] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 08:59:47,573] {logging_mixin.py:115} INFO - [2025-01-22 08:59:47,568] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 08:59:47,574] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 08:59:47,589] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.238 seconds
+[2025-01-22 09:00:17,959] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:00:17,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:00:17,960] {logging_mixin.py:115} INFO - [2025-01-22 09:00:17,960] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:00:18,174] {logging_mixin.py:115} INFO - [2025-01-22 09:00:18,169] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:00:18,174] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:00:18,195] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.239 seconds
+[2025-01-22 09:20:48,290] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:20:48,291] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:20:48,292] {logging_mixin.py:115} INFO - [2025-01-22 09:20:48,292] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:20:48,548] {logging_mixin.py:115} INFO - [2025-01-22 09:20:48,544] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:20:48,548] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:20:48,563] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.277 seconds
+[2025-01-22 09:21:19,453] {processor.py:153} INFO - Started process (PID=377) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:21:19,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:21:19,455] {logging_mixin.py:115} INFO - [2025-01-22 09:21:19,455] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:21:19,675] {logging_mixin.py:115} INFO - [2025-01-22 09:21:19,671] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:21:19,675] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:21:19,697] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.247 seconds
+[2025-01-22 09:21:50,602] {processor.py:153} INFO - Started process (PID=387) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:21:50,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:21:50,604] {logging_mixin.py:115} INFO - [2025-01-22 09:21:50,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:21:50,822] {logging_mixin.py:115} INFO - [2025-01-22 09:21:50,818] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:21:50,822] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:21:50,840] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.240 seconds
+[2025-01-22 09:22:21,742] {processor.py:153} INFO - Started process (PID=397) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:22:21,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:22:21,743] {logging_mixin.py:115} INFO - [2025-01-22 09:22:21,743] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:22:21,948] {logging_mixin.py:115} INFO - [2025-01-22 09:22:21,944] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:22:21,949] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:22:21,964] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.224 seconds
+[2025-01-22 09:22:52,876] {processor.py:153} INFO - Started process (PID=407) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:22:52,877] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:22:52,877] {logging_mixin.py:115} INFO - [2025-01-22 09:22:52,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:22:53,102] {logging_mixin.py:115} INFO - [2025-01-22 09:22:53,098] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:22:53,102] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:22:53,118] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.245 seconds
+[2025-01-22 09:23:24,051] {processor.py:153} INFO - Started process (PID=417) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:23:24,052] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:23:24,052] {logging_mixin.py:115} INFO - [2025-01-22 09:23:24,052] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:23:24,263] {logging_mixin.py:115} INFO - [2025-01-22 09:23:24,259] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:23:24,264] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:23:24,286] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.236 seconds
+[2025-01-22 09:23:55,196] {processor.py:153} INFO - Started process (PID=427) to work on /opt/airflow/dags/churn.py
+[2025-01-22 09:23:55,197] {processor.py:641} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-22 09:23:55,197] {logging_mixin.py:115} INFO - [2025-01-22 09:23:55,197] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-22 09:23:55,410] {logging_mixin.py:115} INFO - [2025-01-22 09:23:55,405] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 18, in <module>
+    def prepare_churn_dataset():
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2935, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/local/lib/python3.10/inspect.py", line 3186, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/local/lib/python3.10/inspect.py", line 3168, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'schedule'
+[2025-01-22 09:23:55,410] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-22 09:23:55,432] {processor.py:161} INFO - Processing /opt/airflow/dags/churn.py took 0.238 seconds

@@ -1,0 +1,8 @@
+[2025-01-27T19:46:13.387+0000] {processor.py:186} INFO - Started process (PID=92) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-01-27T19:46:13.388+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-01-27T19:46:13.392+0000] {logging_mixin.py:190} INFO - [2025-01-27T19:46:13.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-01-27T19:46:13.411+0000] {processor.py:925} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-01-27T19:46:13.456+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/providers/cncf/kubernetes/utils/k8s_hashlib_wrapper.py:29 DeprecationWarning: Python version constraint 'PY39' is deprecated and will be removed in the future. Please get version info from the 'sys.version_info'.
+[2025-01-27T19:46:13.485+0000] {logging_mixin.py:190} INFO - [2025-01-27T19:46:13.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T19:46:13.506+0000] {logging_mixin.py:190} INFO - [2025-01-27T19:46:13.506+0000] {dag.py:4180} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2025-01-27T19:46:13.528+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.148 seconds

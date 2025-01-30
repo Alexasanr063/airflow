@@ -1343,3 +1343,115 @@
 [2025-01-14T10:45:55.460+0000] {logging_mixin.py:154} INFO - [2025-01-14T10:45:55.460+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-01-14T10:45:55.480+0000] {logging_mixin.py:154} INFO - [2025-01-14T10:45:55.480+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
 [2025-01-14T10:45:55.495+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.826 seconds
+[2025-01-14T22:40:39.102+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:40:39.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:40:39.106+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:40:39.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:40:39.910+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:40:39.905+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:40:39.911+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:40:39.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.829 seconds
+[2025-01-14T22:41:10.479+0000] {processor.py:157} INFO - Started process (PID=106) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:41:10.480+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:41:10.482+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:41:10.482+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:41:10.933+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:41:10.930+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:41:10.935+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:41:10.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.473 seconds
+[2025-01-14T22:41:41.827+0000] {processor.py:157} INFO - Started process (PID=165) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:41:41.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:41:41.828+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:41:41.828+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:41:42.261+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:41:42.257+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:41:42.263+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:41:42.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.455 seconds
+[2025-01-14T22:42:32.532+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:42:32.534+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:42:32.537+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:42:32.536+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:42:33.944+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:42:33.940+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:42:33.946+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:42:33.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 1.432 seconds
+[2025-01-14T22:43:04.631+0000] {processor.py:157} INFO - Started process (PID=120) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:43:04.632+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:43:04.634+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:43:04.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:43:05.101+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:43:05.097+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:43:05.103+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:43:05.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.491 seconds
+[2025-01-14T22:43:36.076+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:43:36.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:43:36.078+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:43:36.078+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:43:36.489+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:43:36.485+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:43:36.491+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:43:36.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.433 seconds
+[2025-01-14T22:44:06.742+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/churn.py
+[2025-01-14T22:44:06.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-14T22:44:06.745+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:44:06.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-14T22:44:07.188+0000] {logging_mixin.py:154} INFO - [2025-01-14T22:44:07.184+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/churn.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/churn.py", line 6, in <module>
+    from steps.messages import send_telegram_success_message, send_telegram_failure_message
+  File "/opt/airflow/plugins/steps/messages.py", line 2, in <module>
+    from airflow.providers.telegram.hooks.telegram import TelegramHook
+ModuleNotFoundError: No module named 'airflow.providers.telegram'
+[2025-01-14T22:44:07.190+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/churn.py
+[2025-01-14T22:44:07.205+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.466 seconds

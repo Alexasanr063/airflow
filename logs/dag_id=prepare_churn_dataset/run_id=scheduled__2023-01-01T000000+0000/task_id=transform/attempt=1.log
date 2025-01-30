@@ -27,3 +27,43 @@
 [2025-01-10T14:27:05.886+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=prepare_churn_dataset, task_id=transform, execution_date=20230101T000000, start_date=20250110T142705, end_date=20250110T142705
 [2025-01-10T14:27:05.915+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
 [2025-01-10T14:27:05.935+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-30T06:11:01.296+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-30T06:11:01.312+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prepare_churn_dataset.transform scheduled__2023-01-01T00:00:00+00:00 [queued]>
+[2025-01-30T06:11:01.321+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prepare_churn_dataset.transform scheduled__2023-01-01T00:00:00+00:00 [queued]>
+[2025-01-30T06:11:01.322+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-30T06:11:01.332+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2023-01-01 00:00:00+00:00
+[2025-01-30T06:11:01.340+0000] {standard_task_runner.py:72} INFO - Started process 115 to run task
+[2025-01-30T06:11:01.343+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'prepare_churn_dataset', 'transform', 'scheduled__2023-01-01T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/churn.py', '--cfg-path', '/tmp/tmpr515zg0m']
+[2025-01-30T06:11:01.344+0000] {standard_task_runner.py:105} INFO - Job 38: Subtask transform
+[2025-01-30T06:11:01.391+0000] {task_command.py:467} INFO - Running <TaskInstance: prepare_churn_dataset.transform scheduled__2023-01-01T00:00:00+00:00 [running]> on host 0be31ceb717f
+[2025-01-30T06:11:01.637+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='prepare_churn_dataset' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T00:00:00+00:00'
+[2025-01-30T06:11:01.639+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-30T06:11:01.640+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-30T06:11:01.641+0000] {logging_mixin.py:190} INFO - Current task name:transform state:running start_date:2025-01-30 06:11:01.313728+00:00
+[2025-01-30T06:11:01.641+0000] {logging_mixin.py:190} INFO - Dag name:prepare_churn_dataset and current dag run status:running
+[2025-01-30T06:11:01.642+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-30T06:11:01.643+0000] {churn.py:94} INFO - Преобразование данных.
+[2025-01-30T06:11:01.647+0000] {churn.py:97} INFO - Преобразование данных завершено.
+[2025-01-30T06:11:01.647+0000] {python.py:240} INFO - Done. Returned value was:      customer_id  begin_date  ... multiple_lines target
+0     7590-VHVEG  2020-01-01  ...           None      0
+1     5575-GNVDE  2017-04-01  ...             No      0
+2     3668-QPYBK  2019-10-01  ...             No      1
+3     7795-CFOCW  2016-05-01  ...           None      0
+4     9237-HQITU  2019-09-01  ...             No      1
+...          ...         ...  ...            ...    ...
+7038  6840-RESVB  2018-02-01  ...            Yes      0
+7039  2234-XADUH  2014-02-01  ...            Yes      0
+7040  4801-JZAZL  2019-03-01  ...           None      0
+7041  8361-LTMKD  2019-07-01  ...            Yes      1
+7042  3186-AJIEK  2014-08-01  ...             No      0
+
+[7043 rows x 21 columns]
+[2025-01-30T06:11:01.736+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-30T06:11:01.737+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=prepare_churn_dataset, task_id=transform, run_id=scheduled__2023-01-01T00:00:00+00:00, execution_date=20230101T000000, start_date=20250130T061101, end_date=20250130T061101
+[2025-01-30T06:11:01.745+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-30T06:11:01.746+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-30T06:11:01.747+0000] {logging_mixin.py:190} INFO - Dag name:prepare_churn_dataset queued_at:2025-01-30 06:10:56.404238+00:00
+[2025-01-30T06:11:01.747+0000] {logging_mixin.py:190} INFO - Task hostname:0be31ceb717f operator:_PythonDecoratedOperator
+[2025-01-30T06:11:01.796+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-30T06:11:01.817+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-30T06:11:01.819+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

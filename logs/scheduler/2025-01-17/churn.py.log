@@ -1,0 +1,60 @@
+[2025-01-17T20:53:53.938+0000] {processor.py:157} INFO - Started process (PID=50) to work on /opt/airflow/dags/churn.py
+[2025-01-17T20:53:53.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-17T20:53:53.942+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:53:53.942+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-17T20:53:53.967+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:53:53.967+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-17T20:53:53.969+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:53:53.968+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-17T20:53:54.510+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:53:54.510+0000] {churn.py:61} INFO - Таблица users_churn уже существует.
+[2025-01-17T20:53:54.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_churn_dataset']) retrieved from /opt/airflow/dags/churn.py
+[2025-01-17T20:53:54.733+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:53:54.732+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-17T20:53:54.753+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:53:54.753+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
+[2025-01-17T20:53:54.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.844 seconds
+[2025-01-17T20:54:24.897+0000] {processor.py:157} INFO - Started process (PID=118) to work on /opt/airflow/dags/churn.py
+[2025-01-17T20:54:24.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-17T20:54:24.900+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:24.900+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-17T20:54:24.912+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:24.912+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-17T20:54:24.913+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:24.913+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-17T20:54:25.436+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:25.436+0000] {churn.py:61} INFO - Таблица users_churn уже существует.
+[2025-01-17T20:54:25.439+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_churn_dataset']) retrieved from /opt/airflow/dags/churn.py
+[2025-01-17T20:54:25.456+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:25.456+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-17T20:54:25.476+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:25.476+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
+[2025-01-17T20:54:25.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.605 seconds
+[2025-01-17T20:54:55.574+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/churn.py
+[2025-01-17T20:54:55.575+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-17T20:54:55.577+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:55.576+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-17T20:54:55.587+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:55.587+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-17T20:54:55.588+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:55.588+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-17T20:54:56.101+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:56.101+0000] {churn.py:61} INFO - Таблица users_churn уже существует.
+[2025-01-17T20:54:56.105+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_churn_dataset']) retrieved from /opt/airflow/dags/churn.py
+[2025-01-17T20:54:56.122+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:56.121+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-17T20:54:56.142+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:54:56.142+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
+[2025-01-17T20:54:56.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.591 seconds
+[2025-01-17T20:55:26.897+0000] {processor.py:157} INFO - Started process (PID=234) to work on /opt/airflow/dags/churn.py
+[2025-01-17T20:55:26.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-17T20:55:26.900+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:26.900+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-17T20:55:26.910+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:26.910+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-17T20:55:26.911+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:26.911+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-17T20:55:27.366+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:27.366+0000] {churn.py:61} INFO - Таблица users_churn уже существует.
+[2025-01-17T20:55:27.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_churn_dataset']) retrieved from /opt/airflow/dags/churn.py
+[2025-01-17T20:55:27.388+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:27.388+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-17T20:55:27.406+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:27.406+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
+[2025-01-17T20:55:27.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.526 seconds
+[2025-01-17T20:55:57.958+0000] {processor.py:157} INFO - Started process (PID=289) to work on /opt/airflow/dags/churn.py
+[2025-01-17T20:55:57.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-17T20:55:57.960+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:57.960+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-17T20:55:57.970+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:57.970+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-17T20:55:57.971+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:57.971+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-17T20:55:58.500+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:58.500+0000] {churn.py:61} INFO - Таблица users_churn уже существует.
+[2025-01-17T20:55:58.504+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_churn_dataset']) retrieved from /opt/airflow/dags/churn.py
+[2025-01-17T20:55:58.521+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:58.520+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-17T20:55:58.541+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:55:58.540+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
+[2025-01-17T20:55:58.555+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.601 seconds
+[2025-01-17T20:56:28.591+0000] {processor.py:157} INFO - Started process (PID=348) to work on /opt/airflow/dags/churn.py
+[2025-01-17T20:56:28.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/churn.py for tasks to queue
+[2025-01-17T20:56:28.595+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:56:28.594+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/churn.py
+[2025-01-17T20:56:28.605+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:56:28.605+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-01-17T20:56:28.606+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:56:28.606+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-01-17T20:56:29.050+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:56:29.050+0000] {churn.py:61} INFO - Таблица users_churn уже существует.
+[2025-01-17T20:56:29.054+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_churn_dataset']) retrieved from /opt/airflow/dags/churn.py
+[2025-01-17T20:56:29.069+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:56:29.069+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-17T20:56:29.088+0000] {logging_mixin.py:154} INFO - [2025-01-17T20:56:29.088+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_churn_dataset to None, run_after=None
+[2025-01-17T20:56:29.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/churn.py took 0.514 seconds

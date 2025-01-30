@@ -59,7 +59,7 @@ def prepare_churn_dataset():
             metadata.create_all(engine)
         else:
             logger.info("Таблица users_churn уже существует.")
-    
+
     # Задача для создания таблицы
     @task()
     def create_table_task():
